@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Large raw data not committed by default
+data/raw/crime/
+data/raw/LB_shp/
+data/raw/IMD/English IMD 2019/
+data/raw/IMD/english-imd-2019.zip
+data/raw/IMD/IMD2019.csv
+data/raw/London_Gangs.zip
+
+# Local notes not needed in the GitHub submission repo
+Proposal/
+docs/
+report/
