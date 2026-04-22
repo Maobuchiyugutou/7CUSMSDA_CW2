@@ -1,13 +1,12 @@
 # Drug Offences in London: Spatial Data Analysis
 
-This repository contains the coursework project for **7CUSMSDA Spatial Data Analysis**. It brings together the analysis notebook, processed spatial dataset, report source files, and the key figures used in the write-up.
+This repository contains the coursework project for **7CUSMSDA Spatial Data Analysis**. It brings together the analysis notebook, processed spatial dataset, and the key figures used in the final write-up.
 
 ## What is included
 
 - `notebooks/drug_offences_london.ipynb`: main analysis notebook
 - `data/processed/london_drug_gdf.gpkg`: processed GeoPackage used for the analysis workflow
-- `figures/`: exported maps and model output figures used in the report
-- `report/`: LaTeX section files for the written report
+- `figures/`: exported maps and model output figures
 - `data/raw/LSOA_london_2021/`: LSOA boundary copied into this project so the notebook is self-contained
 - small raw inputs used directly by the notebook, such as IMD, Nomis tables, and gang shapefiles
 
@@ -39,9 +38,7 @@ CourseWork/
 │       ├── LSOA_london_2021/
 │       ├── nomis_2026_04_22_011527.xlsx
 │       └── nomis_2026_04_22_014758.xlsx
-├── figures/
-├── report/
-└── docs/
+└── figures/
 ```
 
 ## How to use this repository
@@ -58,17 +55,13 @@ This is the best option for a marker or reader because it avoids downloading ver
 
 The notebook also contains a one-time preprocessing section that builds the GeoPackage from raw inputs. Some very large raw crime files are not committed by default, so that section may require local data that is not present in the GitHub version.
 
-## Figures and report links
+## Useful links for the report
 
-The report can link to:
+The written report can link to:
 
 - the repository homepage
 - the notebook file
 - the processed dataset, if you want to reference the reproducible analysis input
-
-If you generate a final PDF version of the report, it is a good idea to add it under `report/` as well, for example:
-
-- `report/final_report.pdf`
 
 ## Data notes
 
@@ -85,4 +78,3 @@ Main sources used in this project include:
 You can cite the repository in the report with a short sentence such as:
 
 > The full notebook, processed data, and exported figures are available in the accompanying GitHub repository.
-
